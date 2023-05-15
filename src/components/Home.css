@@ -1,5 +1,9 @@
 /*begining of all css for Home.js page*/
-
+body{
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
 .home_header1{
     width:100%;
     position: relative;
