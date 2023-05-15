@@ -1,0 +1,34 @@
+{
+  "user": [
+    {
+      "id": "Ntlantlalucky",
+      "name": "Ntlantla",
+      "password": "ntlantla123",
+      "email": "ntlantla@gmail.com"
+    },
+    {
+      "id": "TayaSmith",
+      "name": "Taya",
+      "password": "tayasmith123",
+      "email": "tayasmith@gmail.com"
+    },
+    {
+      "id": "ShaiekahCarelse",
+      "name": "Shaiekah ",
+      "password": "carelse12",
+      "email": "shaiekahcarelse@gmail.com"
+    },
+    {
+      "id": "Karahfisher",
+      "name": "Karah",
+      "password": "fisher12",
+      "email": "karahfisher@gmail.com"
+    },
+    {
+      "id": "luke",
+      "name": "lukey",
+      "password": "lukey123",
+      "email": "luke@gmail.com"
+    }
+  ]
+}

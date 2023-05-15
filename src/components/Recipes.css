@@ -1,0 +1,44 @@
+/*start of Recipe.js*/
+.RecipeSearchBar{
+    border-radius:1%;
+    width:60rem;
+    height:2rem;
+    margin-top:50px
+  }
+  .RecipeSearchButton{
+    cursor: pointer;
+    border-radius:20%;
+    margin-left:1rem;
+    width:4.5rem;
+    height:2.5rem;
+  }
+  .RecipesList{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    gap:100px;
+    list-style-type:none;
+  }
+  .RecipeListItem{
+    background-color:#e2e2e2;
+    width:500px;
+    border-radius:10%;
+  }
+  .RecipeListImg{
+    background-color:#e2e2e2;
+  }
+  .LoadingScreen{
+    width:100%;
+    height:100vh;
+    transition-duration:5000ms;
+  }
+  
+  .LoadingScreen{
+    background-color:black;
+    width:100%;
+    height:75vh;
+    transition-duration:5000ms;
+  }
+  .DisplayNone{
+    display:none;
+  }
+  /*end of Recipe.js*/

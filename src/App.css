@@ -1,0 +1,181 @@
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+/*begining of all css for NavMenu.js page*/
+
+.NavMenuHeader{
+  position:relative;
+  top:-50px;
+}
+.NavMenuHeaderImg2{
+  border-bottom:5px solid #36873E
+}
+.NavMenuHeaderButton2{
+  background-color:white;border-radius:50%;border:none;position:absolute;right:50px;top:120px;
+}
+.NavMenuHeaderButton1{
+  background-color:white;border-radius:50%;border:none;position:absolute;left:50px;top:120px
+}
+.NavMenuFooter{
+  display:flex;flex-direction:column;gap:5rem;margin-top:100px;
+}
+.NavMenuFooter_row{
+  display:flex;flex-direction:row;gap:5rem;margin-left:auto;margin-right:auto;
+}
+.NavMenuFooter_row_A1{
+  border:5px solid #36873E;padding-top:30px;padding-left:40px;padding-right:40px;text-decoration:none;color:black;
+}
+.NavMenuFooter_row_A2{
+  border:5px solid #36873E;padding-top:30px;padding-left:10px;padding-right:10px
+}
+.NavMenuFooter_row_A3{
+  border:5px solid #36873E;padding-top:30px;padding-left:15px;padding-right:15px
+}
+.NavMenuFooter_row_A4{
+  border:5px solid #36873E;padding-top:30px;padding-left:30px;padding-right:30px
+}
+/*end of all css for NavMenu.js page*/
+
+
+
+
+
+/*start of SideNav*/
+.SideNav{
+  position: absolute;left:0px;top:0px;padding-top:75px;padding-left:40px;
+  display: flex;flex-direction: column;height:100%;width:9%;z-index:2;background-color: #36873E;
+  transition-duration:1000ms;
+}
+
+.ClosedSideNav{
+  position: absolute;left:0px;top:0px;padding-top:75px;padding-left:40px;
+  display: flex;flex-direction: column;height:100%;width:0px;z-index:2;background-color:white;transition-duration:1000ms;
+}
+
+.SideNav_button{
+  position: relative;
+  max-height:65px;max-width:60px;padding-right: 49px;margin-bottom:70px;
+}
+.SideNav_a{
+  cursor:pointer;
+  background-color:#36873E;
+  text-align: center;
+  height:2rem;width:150px;padding-top:1rem;margin-bottom:60px;
+  text-decoration: none;
+  color:white;
+  animation: sideNav_a 5500ms;
+}
+@keyframes sideNav_a{
+  from {opacity:0;}
+  to {opacity:1;}
+}
+
+.ClosedSideNav_a{
+  display:none;
+}
+/*end of SideNav*/
+
+
+
+
+
+/*start of RecipeMethodsPage.js*/
+.RecipeMethodsPage{
+  display: flex;flex-direction: column;
+}
+.RecipeMethodsHeader{
+  margin-top:5rem;
+  margin-left: auto;margin-right: auto;
+  display:flex;
+  gap: 50rem;
+}
+.RecipeMethodsHeaderLeft ul li{
+  text-align: left;
+}
+.RecipeMethods{
+  text-align:left;
+  display:flex;flex-direction: column;
+  margin-left:5rem;
+}
+.RecipeMethodsHeaderRight{
+  margin-left: 1rem;
+}
+.RecipeMethods{
+  margin-right: auto;margin-left:20rem;
+}
+
+/*end of RecipeMethodsPage.js*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*begining of all css for Home.js page*/
+  .home_header{
+    position: relative;right:-100px;bottom:-70px;
+    display: flex;flex-direction:column-reverse;
+    gap: 25px;
+  }
+  .home_header_left{
+    position: relative;left:-110px;
+    margin-top:0px;width:100%;
+  }
+  .homeHeaderLeft_H3{
+    text-Align:left;font-weight:initial;margin-left:50px;width: 100%;
+  }
+  .homeHeaderLeft_Button{
+    border-radius:37px;border:none;height:42px;width:160px;background-color:#36873E;color:white;margin-bottom:190px
+  }
+  .home_footer{
+    display:flex;margin-top:70px;position:relative;bottom:-25px;right:-100px
+  }
+  .home_header_right{
+    position: relative;left: -100px;
+  }
+  .homeHeaderRight_Img{
+    height:430px;width:100%;margin:0px;padding:0px;
+  }
+  .home_footer{
+    position: relative;
+    display:flex; flex-direction:column; gap:25px;
+  }
+  .homeFooter_div1{
+    position:relative;
+    left:-100px;
+    margin-left:0px;margin-right:0px;
+  }
+  .homeFooter_div2{
+    position:relative;
+    left:-100px;
+    margin-left:0px;margin-right:0px;
+  }
+  .homeFooter_div3{
+    position:relative;
+    left:-100px;
+    margin-left:0px;margin-right:0px;
+  }
+  /*end of all css for Home.js page*/
